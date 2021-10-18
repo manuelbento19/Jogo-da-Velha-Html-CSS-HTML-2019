@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Jogo Da Velha</title>
+    <script src="Java.js"></script>
+    <link rel="stylesheet" href="Estilo.css"></link>
+</head>
+<body>
+    <div id="root">
+        <div class="app">
+            <form name="fm" class="container">
+                <header>
+                    <div class="input-block">
+                        <label for="jogador1">Jogador 1</label>
+                        <input type="text" name="j1" placeholder="Nome...">
+                    </div>
+                    <div class="input-block">
+                        <label for="jogador1">Jogador 2</label>
+                        <input type="text" name="j2" placeholder="Nome...">
+                    </div>
+                </header>
+                <div class="content">
+                   <div class="button-area">
+                       <input type="button" class="botoes" id="b1" name="b1" onclick="jogada(this)"/>
+                       <input type="button" class="botoes" id="b2" name="b2" onclick="jogada(this)"/>
+                       <input type="button" class="botoes" id="b3" name="b3" onclick="jogada(this)"/>
+                    </div class="button-area">
+                    <div class="button-area">
+                       <input type="button" class="botoes" id="b4" name="b4" onclick="jogada(this)"/>
+                       <input type="button" class="botoes" id="b5" name="b5" onclick="jogada(this)"/>
+                       <input type="button" class="botoes" id="b6" name="b6" onclick="jogada(this)"/>
+                    </div class="button-area">
+                    <div class="button-area">
+                       <input type="button" class="botoes" id="b7" name="b7" onclick="jogada(this)"/>
+                       <input type="button" class="botoes" id="b8" name="b8" onclick="jogada(this)"/>
+                       <input type="button" class="botoes" id="b9" name="b9" onclick="jogada(this)"/>
+                    </div class="button-area">
+                    <div class="topper">
+                        <div>
+                            <label>Jogador 1</label>
+                            <input type="button" name="p1">
+                        </div>
+                        <div>
+                            <label>Jogador 2</label>
+                            <input type="button" name="p2">
+                        </div>
+                    </div>
+                </div>
+              
+            </form>
+        </div>
+    </div>
+</body>
+</html>
